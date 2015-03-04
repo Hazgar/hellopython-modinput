@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <server_host>tiny</server_host>
+    <server_uri>https://127.0.0.1:8089</server_uri>
+    <checkpoint_dir>/opt/splunk/var/lib/splunk/modinputs</checkpoint_dir>
+    <session_key>123102983109283019283</session_key>
+    <!-- The items element only ever contains one item element -->
+    <item name="aaa">
+        <param name="whoareyou">someone</param>
+        <param name="whereareyou">somewhere</param>
+        <param name="howareyou">good</param>
+        <param name="whatisyourfavoritecolor">green</param>
+        <param name="magic">42</param>
+        <param name="disabled">0</param>
+        <param name="index">default</param>
+    </item>
+</items>
